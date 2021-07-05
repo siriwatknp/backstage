@@ -1,5 +1,14 @@
 # @backstage/core-components
 
+## 0.1.5
+
+### Patch Changes
+
+- a446bffdb: Improve UX of the Sidebar by adding SidebarScrollWrapper component allowing the user to scroll through Plugins & Shortcuts on smaller screens. Prevent the Sidebar from opening on click on small devices
+- f11e50ea7: - Enhanced core `Button` component to open external links in new tab.
+  - Replaced the use of `Button` component from material by `core-components` in tools card.
+- 47748c7e6: Fix error in error panel, and console warnings about DOM nesting pre inside p
+
 ## 0.1.4
 
 ### Patch Changes
